@@ -1,0 +1,217 @@
+/* #f6f7f8 */
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: #2d2e2e;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* header */
+/* header */
+/* header */
+/* header */
+/* header */
+/* header */
+/* header */
+/* header */
+/* header */
+/* header */
+/* header */
+header {
+    /* height: 56px; */
+    box-shadow: 3px 3px 4px red;
+    background-color: #ffffff;
+    color: #01a2a6;
+    font-family: "Merriweather", "Times New Roman" ;
+    font-size: 18px;
+    text-align: center;
+    padding: 17px;
+    font-weight: 700;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    box-shadow: 0 0px 10px 0 rgb(67 67 69 / 35%);
+}
+
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+/* main */
+
+main{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    background-color: #d9eeef;
+    /* height: 500px; */
+    padding-left: 15px;
+    padding-right: 15px;
+}
+main .container{
+    background-image: url(Dtc.jpeg);
+}
+main .info{
+    text-align: center;
+    font-weight: 800;
+    font-family: "Merriweather", "Times New Roman" ;
+    color: #01a2a6;
+    font-size: 24px;
+    border-color: #1c558f ;
+    border: 1px solid;
+    line-height: 1.5;
+    padding: 10px;
+    border-color: #f6f7f8 ;
+}
+main .pass{
+    /* height: 430px; */
+    /* margin-bottom: 70px; */
+    border: 1px solid red;
+    border-top: 0px;
+    border-color: #f6f7f8 ;
+}
+main .pass p{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    /* font-size: 20px; */
+    text-align: center;
+    /* line-height: 1.5; */
+    font-weight: 600;
+}
+main .name{
+    /* height: 42px; */
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #322828;
+    font-weight: 500;
+}
+/* .typediv{
+} */
+main .type{
+    padding-bottom: 10px;
+    /* height: 42px; */
+    font-size: 20px;
+    font-weight: 500;
+    color: #322828;
+}
+main .passNoDiv{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-bottom:10px;
+}
+main .passNoText{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    /* font-size: 20px; */
+    text-align: center;
+    padding-bottom: 8px;
+    /* display: ; */
+    /* line-height: 1.5; */
+    font-weight: 600;
+    /* height: 42px; */
+    /* font-weight: 500; */
+    color: black;
+    /* font-size: 20px; */
+    /* animation-name: trans ;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; */
+    /* animation-play-state: ; */
+}
+main .passNo{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    /* font-size: 20px; */
+    text-align: center;
+    /* line-height: 1.5; */
+    font-weight: 600;
+    /* height: 42px; */
+    /* font-weight: 500; */
+    color: #458121;
+    /* color: green; */
+    /* font-size: 20px; */
+    animation-name: trans ;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    /* animation-play-state: ; */
+}
+@keyframes trans{
+    00% {opacity: 1;}
+    50% {opacity: 0.5;}
+    100% {opacity: 1;}
+}
+.datesdiv{
+    padding-bottom: 20px;
+}
+main .dates{
+    /* height: 42px; */
+    /* font-size: 20px; */
+    font-weight: 500;
+    color: #322828;
+    font-size: 20px;
+    color: #b01719;
+}
+main .pass img{
+    height: 250px;
+    width: 250px;
+    background-image: none;
+    /* border: 1px solid black; */
+    margin: 10px auto 0 auto;
+    text-align: center;
+}
+main .sign{
+    /* background-color: red; */
+    display: flex;
+    padding: 10px;
+}
+main .sign div{
+    width: 50%;
+    border: 1px solid;
+    border-color: #f6f7f8 ;
+}
+main .sign .scan img{
+    height: 80px;
+    width: 80px;
+}
+
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+/* footer */
+footer {
+    background-color: #01a2a6;
+    height: 151px;
+    width: 100%;
+    position: relative;
+}
+
+footer p {
+    text-align: center;
+    width: 100%;
+    font-size: 13px;
+    position: absolute;
+    margin-bottom: 40px;
+    font-weight: 600;
+    bottom: 0px;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
